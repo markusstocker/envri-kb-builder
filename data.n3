@@ -3,6 +3,9 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://emso.net> a <http://www.oil-e.net/ontology/envri-rm.owl#ResearchInfrastructure> ;
+    rdfs:label "EMSO" .
+
 <http://www.lter.net> a <http://www.oil-e.net/ontology/envri-rm.owl#ResearchInfrastructure> ;
     rdfs:label "Long Term Ecosystem Research" .
 
