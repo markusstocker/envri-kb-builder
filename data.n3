@@ -1,0 +1,11 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.lter.net> a <http://www.oil-e.net/ontology/envri-rm.owl#ResearchInfrastructure> ;
+    rdfs:label "Long Term Ecosystem Research" .
+
+<https://www.icos-ri.eu/> a <http://www.oil-e.net/ontology/envri-rm.owl#ResearchInfrastructure> ;
+    rdfs:label "Integrated Carbon Observing System" .
+
