@@ -1,14 +1,20 @@
+@prefix ns1: <http://www.oil-e.net/ontology/envri-rm.owl#> .
+@prefix ns2: <http://example.org#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://emso.net> a <http://www.oil-e.net/ontology/envri-rm.owl#ResearchInfrastructure> ;
+<http://emso.net> a ns1:ResearchInfrastructure ;
     rdfs:label "EMSO" .
 
-<http://www.lter.net> a <http://www.oil-e.net/ontology/envri-rm.owl#ResearchInfrastructure> ;
-    rdfs:label "Long Term Ecosystem Research" .
-
-<https://www.icos-ri.eu/> a <http://www.oil-e.net/ontology/envri-rm.owl#ResearchInfrastructure> ;
+<http://www.icos-ri.eu> a ns1:ResearchInfrastructure ;
     rdfs:label "Integrated Carbon Observing System" .
+
+<http://www.lter.net> a ns1:ResearchInfrastructure ;
+    rdfs:label "Long Term Ecosystem Research" ;
+    ns1:hasRepository [ rdfs:label "My repository 1" ;
+            ns2:url <http://example1.org> ],
+        [ rdfs:label "My repository 2" ;
+            ns2:url <http://example2.org> ] .
 

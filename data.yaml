@@ -1,9 +1,14 @@
 ---
 label: Integrated Carbon Observing System
-web: https://www.icos-ri.eu/
+web: http://www.icos-ri.eu
 ---
 label: Long Term Ecosystem Research
 web: http://www.lter.net
+repositories: 
+    - name: My repository 1
+      url: http://example1.org
+    - name: My repository 2
+      url: http://example2.org
 ---
 label: EMSO
 web: http://emso.net
